@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "897619785636",
+    "project_id": "gameufcspaici",
+    "storage_bucket": "gameufcspaici.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897619785636:android:a5f1d54ce37e98ea737331",
+        "android_client_info": {
+          "package_name": "com.example.gameici"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897619785636-56nc4hr7us7magogc1v2mc6ck5num8ol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArZOn96S-D_Dc5MQTEVVltQMJwiSL2Wmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897619785636-56nc4hr7us7magogc1v2mc6ck5num8ol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
