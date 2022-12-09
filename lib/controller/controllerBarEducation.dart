@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:gameici/controller/AuthService.dart';
 import 'package:gameici/view/quiz/quizScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -9,6 +8,7 @@ import '../../controller/ResponsiveScreen.dart';
 import '../view/education/CardsEducaUser.dart';
 import '../view/infocancer/cancerinfantojuvenil.dart';
 import '../view/infocancer/infantojuvenil.dart';
+import 'auth_service.dart';
 
 class ControllerBarEducation extends StatefulWidget {
   ControllerBarEducation(this._paginaAtual, this._selectedIndex, {Key? key})

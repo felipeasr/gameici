@@ -2,8 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:gameici/controller/ResponsiveScreen.dart';
 import 'package:validatorless/validatorless.dart';
-
-import '../../controller/AuthService.dart';
+import '../../controller/auth_service.dart';
 import 'LoginPage.dart';
 
 class ResetPassword extends StatelessWidget {

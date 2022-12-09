@@ -3,8 +3,9 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_database/ui/firebase_animated_list.dart';
 import 'package:flutter/material.dart';
 
-import '../../controller/AuthService.dart';
+
 import '../../controller/ResponsiveScreen.dart';
+import '../../controller/auth_service.dart';
 import 'CardsSaude.dart';
 import 'add_card.dart';
 import 'cardsEducacao.dart';

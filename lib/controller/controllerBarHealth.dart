@@ -8,7 +8,7 @@ import '../../controller/ResponsiveScreen.dart';
 import '../view/health/CardsSaudeUser.dart';
 import '../view/infocancer/cancerinfantojuvenil.dart';
 import '../view/infocancer/infantojuvenil.dart';
-import 'AuthService.dart';
+import 'auth_service.dart';
 
 class ControllerBarHealth extends StatefulWidget {
   int _selectedIndex = 0;

@@ -2,10 +2,9 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
-import '../../controller/AuthService.dart';
 import '../../controller/ResponsiveScreen.dart';
 import '../../controller/SizeConfig.dart';
+import '../../controller/auth_service.dart';
 import '../../controller/controllerBarEducation.dart';
 
 class verifyEmailPageEducacao extends StatefulWidget {

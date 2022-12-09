@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "897619785636",
+    "firebase_url": "https://gameufcspaici-default-rtdb.firebaseio.com",
     "project_id": "gameufcspaici",
     "storage_bucket": "gameufcspaici.appspot.com"
   },
@@ -29,6 +30,13 @@
             {
               "client_id": "897619785636-56nc4hr7us7magogc1v2mc6ck5num8ol.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "897619785636-1con1vcpn9h7h1hp6angmlosjd24utar.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gameici"
+              }
             }
           ]
         }
