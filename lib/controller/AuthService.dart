@@ -45,7 +45,6 @@ class AuthService extends ChangeNotifier {
       await FirebaseFirestore.instance.collection("users").doc(user?.uid).set({
         'uid': user?.uid,
         'email': email,
-        'password': password,
         'role': usertype,
       });
 

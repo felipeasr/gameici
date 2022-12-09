@@ -60,8 +60,8 @@ class CardsWidget extends StatelessWidget {
               children: [
                 TextButton(
                   child: Text(
-                    snapshot.child("url").value.toString(),
-                    style: const TextStyle(color: Colors.black),
+                    'link do jogo',
+                    style: TextStyle(color: Colors.blue[900]),
                   ),
                   onPressed: () {
                     _launchURL();
