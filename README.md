@@ -3,5 +3,5 @@
 Educational Support Platform for health and education professionals, with the aim of helping with knowledge about early diagnosis of cancer in children and adolescents.
 
 # Screens
-  <img width="70%" src="img/imagem_2022-12-09_063100003.png"/>
+  <img width="30%" src="img/imagem_2022-12-09_063100003.png"/>
 
