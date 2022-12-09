@@ -1,5 +1,7 @@
 # gameici
 
-Plataforma de Apoio Educacional para profissionais de saúde e educação, com intuito de auxiliar no conhecimento sobre diagnostico precoce do câncer infantojuvenil.
+Educational Support Platform for health and education professionals, with the aim of helping with knowledge about early diagnosis of cancer in children and adolescents.
+
+# Screens
 
 
