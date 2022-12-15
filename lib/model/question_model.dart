@@ -157,7 +157,7 @@ List<Question> getQuestions() {
     ],
   ));
 
-  //list.shuffle();
+  list.shuffle();
 
   return list;
 }

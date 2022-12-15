@@ -6,8 +6,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../controller/ResponsiveScreen.dart';
 import '../view/health/CardsSaudeUser.dart';
-import '../view/infocancer/cancerinfantojuvenil.dart';
-import '../view/infocancer/infantojuvenil.dart';
+import '../view/infocancer/cancerinfantojuvenilHealth.dart';
+import '../view/infocancer/infantojuvenilHealth.dart';
 import 'auth_service.dart';
 
 class ControllerBarHealth extends StatefulWidget {
@@ -42,7 +42,7 @@ class _ControllerBarHealth extends State<ControllerBarHealth> {
   }
 
   final List<Widget> _telas = [
-    const InfoCancer(),
+    const InfoCancerHealth(),
     QuizPage(),
     const CardsSaudeUser(),
   ];
@@ -141,7 +141,7 @@ class _ControllerBarHealth extends State<ControllerBarHealth> {
                   // This is the main content.
                   Expanded(
                       child: (widget._selectedIndex == 0)
-                          ? const InfoCancer()
+                          ? const InfoCancerHealth()
                           : (widget._selectedIndex == 1)
                               ? QuizPage()
                               : (widget._selectedIndex == 2)

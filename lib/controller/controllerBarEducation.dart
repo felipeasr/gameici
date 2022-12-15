@@ -6,8 +6,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../controller/ResponsiveScreen.dart';
 import '../view/education/CardsEducaUser.dart';
-import '../view/infocancer/cancerinfantojuvenil.dart';
-import '../view/infocancer/infantojuvenil.dart';
+import '../view/infocancer/cancerinfantojuvenilHealth.dart';
+import '../view/infocancer/infantojuvenilEducation.dart';
+import '../view/infocancer/infantojuvenilHealth.dart';
 import 'auth_service.dart';
 
 class ControllerBarEducation extends StatefulWidget {
@@ -42,7 +43,7 @@ class _ControllerBarEducation extends State<ControllerBarEducation> {
   }
 
   final List<Widget> _telas = [
-    const InfoCancer(),
+    const InfoCancerEducation(),
     QuizPage(),
     const CardsEducacaoUser(),
   ];
@@ -140,7 +141,7 @@ class _ControllerBarEducation extends State<ControllerBarEducation> {
                   // This is the main content.
                   Expanded(
                       child: (widget._selectedIndex == 0)
-                          ? const InfoCancer()
+                          ? const InfoCancerEducation()
                           : (widget._selectedIndex == 1)
                               ? QuizPage()
                               : (widget._selectedIndex == 2)

@@ -1,22 +1,26 @@
 import 'package:flutter/cupertino.dart';
+import 'package:gameici/view/infocancer/widgets/leucemia_widgets.dart';
 import 'package:slimy_card/slimy_card.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 import 'package:flutter/material.dart';
 
 import '../../controller/ResponsiveScreen.dart';
+import '../../controller/SizeConfig.dart';
 import '../../controller/UserVerification.dart';
 
-class CancerInfatojuvenil extends StatefulWidget {
-  CancerInfatojuvenil(this.controller, {Key? key}) : super(key: key);
+class CancerInfatojuvenilHealth extends StatefulWidget {
+  CancerInfatojuvenilHealth(this.controller, {Key? key}) : super(key: key);
   PageController controller = PageController(initialPage: 0);
   @override
-  _CancerInfatojuvenil createState() => _CancerInfatojuvenil();
+  _CancerInfatojuvenilHealth createState() => _CancerInfatojuvenilHealth();
 }
 
-class _CancerInfatojuvenil extends State<CancerInfatojuvenil> {
+class _CancerInfatojuvenilHealth extends State<CancerInfatojuvenilHealth> {
   //final controller = PageController(initialPage: 0);
+
   String _user = '';
   @override
   void initState() {
@@ -73,46 +77,41 @@ class _CancerInfatojuvenil extends State<CancerInfatojuvenil> {
         scrollDirection: Axis.horizontal,
         controller: widget.controller,
         children: [
-          Container(
-              color: Colors.indigo[600],
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                //crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.only(right: 100, left: 60),
-                    child: Row(
-                      children: [
-                        TextButton.icon(
-                            onPressed: () {
-                              Navigator.pushReplacement(
-                                  context,
-                                  MaterialPageRoute(
-                                      builder: (BuildContext context) =>
-                                          const user_verification()));
-                            },
-                            icon: const Icon(
-                              Icons.arrow_back,
-                              color: Colors.white,
-                            ),
-                            label: const Text(
-                              "Voltar",
-                              style: TextStyle(color: Colors.white),
-                            )),
+          Column(
+            children: [
+              if (!Responsive.isDesktop(context))
+                Expanded(
+                  flex: 3,
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: SizeConfig.screenHeight,
+                    child: SingleChildScrollView(
+                      padding:
+                          const EdgeInsets.only(top: 10, right: 3, left: 3),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: const [
+                          LeucemiaWidget(),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              if (Responsive.isDesktop(context))
+                Expanded(
+                  flex: 3,
+                  child: SingleChildScrollView(
+                    padding: const EdgeInsets.only(top: 10, right: 5, left: 5),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: const [
+                        LeucemiaWidget(),
                       ],
                     ),
                   ),
-                  Image.asset(
-                    'img/lconleu.png',
-                    height: 90,
-                    width: 90,
-                  ),
-                  const Text(
-                    'Leucemias',
-                    style: TextStyle(color: Colors.white, fontSize: 20),
-                  ),
-                ],
-              )),
+                ),
+            ],
+          ),
           Container(
             color: Colors.orangeAccent[100],
             child: Column(

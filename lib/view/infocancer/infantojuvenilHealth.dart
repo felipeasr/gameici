@@ -4,16 +4,16 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:google_fonts/google_fonts.dart';
 import '../../controller/ResponsiveScreen.dart';
-import 'cancerinfantojuvenil.dart';
+import 'cancerinfantojuvenilHealth.dart';
 
-class InfoCancer extends StatefulWidget {
-  const InfoCancer({super.key});
+class InfoCancerHealth extends StatefulWidget {
+  const InfoCancerHealth({super.key});
 
   @override
-  _InfoCancer createState() => _InfoCancer();
+  _InfoCancerHealth createState() => _InfoCancerHealth();
 }
 
-class _InfoCancer extends State<InfoCancer> {
+class _InfoCancerHealth extends State<InfoCancerHealth> {
   String _user = '';
   @override
   void initState() {
@@ -118,7 +118,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -164,7 +164,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -210,7 +210,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -256,7 +256,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -309,7 +309,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -355,7 +355,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -401,7 +401,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -448,7 +448,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -502,7 +502,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -548,7 +548,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -602,7 +602,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -648,7 +648,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -701,7 +701,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -747,7 +747,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -800,7 +800,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
@@ -847,7 +847,7 @@ class _InfoCancer extends State<InfoCancer> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          CancerInfatojuvenil(controller)));
+                                          CancerInfatojuvenilHealth(controller)));
                             },
                             child: Column(
                               mainAxisSize: MainAxisSize.min,
